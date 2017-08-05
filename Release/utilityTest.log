@@ -1,0 +1,170 @@
+﻿Build started 07/10/2016 12:41:05 PM.
+     1>Project "C:\Users\Stephen\Desktop\Fate's Call\utilityTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "..\Fate's Call\ThirdDungeon.cpp" Actor.cpp AudioManager.cpp Base.cpp Bomb.cpp Boss.cpp Button.cpp CollisionDetection.cpp Credits.cpp Dragon.cpp Dungeon.cpp Enemy.cpp Fireball.cpp Food.cpp Frostbolt.cpp GameEngine.cpp GameOver.cpp GameWon.cpp Ghost.cpp Goblin.cpp Gold.cpp HUD.cpp Inventory.cpp LeftHand.cpp LeftVine.cpp Locked.cpp main.cpp MainMenuState.cpp Minimap.cpp NewGame.cpp Player.cpp Potion.cpp ProgressionStateDolan.cpp ProgressionStatePepe.cpp Projectile.cpp Proportion.cpp Puzzle.cpp RenderingEngine.cpp RightHand.cpp RightVine.cpp Room.cpp ScndDungeon.cpp ScreenUtil.cpp Shop.cpp Skeleton.cpp Slime.cpp HellKnight.cpp Explosive.cpp Spider.cpp StateManager.cpp Texture.cpp Thunderbolt.cpp Timer.cpp VenusFlyTrap.cpp Waves.cpp
+         ThirdDungeon.cpp
+     1>..\Fate's Call\ThirdDungeon.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Fate's Call\ThirdDungeon.cpp(137): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Fate's Call\ThirdDungeon.cpp(149): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Fate's Call\ThirdDungeon.cpp(173): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Fate's Call\ThirdDungeon.cpp(378): warning C4018: '<' : signed/unsigned mismatch
+     1>..\Fate's Call\ThirdDungeon.cpp(396): warning C4018: '<' : signed/unsigned mismatch
+         Actor.cpp
+         AudioManager.cpp
+         Base.cpp
+     1>Base.cpp(107): warning C4018: '<' : signed/unsigned mismatch
+         Bomb.cpp
+         Boss.cpp
+     1>Boss.cpp(46): warning C4018: '<' : signed/unsigned mismatch
+     1>Boss.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+     1>Boss.cpp(66): warning C4018: '<' : signed/unsigned mismatch
+     1>Boss.cpp(99): warning C4018: '<' : signed/unsigned mismatch
+         Button.cpp
+         CollisionDetection.cpp
+     1>CollisionDetection.cpp(16): warning C4018: '<' : signed/unsigned mismatch
+     1>CollisionDetection.cpp(44): warning C4018: '<' : signed/unsigned mismatch
+     1>CollisionDetection.cpp(71): warning C4018: '<' : signed/unsigned mismatch
+     1>CollisionDetection.cpp(80): warning C4018: '<' : signed/unsigned mismatch
+     1>CollisionDetection.cpp(99): warning C4018: '<' : signed/unsigned mismatch
+         Credits.cpp
+         Dragon.cpp
+         Dungeon.cpp
+     1>Dungeon.cpp(131): warning C4018: '<' : signed/unsigned mismatch
+     1>Dungeon.cpp(143): warning C4018: '<' : signed/unsigned mismatch
+     1>Dungeon.cpp(167): warning C4018: '<' : signed/unsigned mismatch
+     1>Dungeon.cpp(353): warning C4018: '<' : signed/unsigned mismatch
+     1>Dungeon.cpp(370): warning C4018: '<' : signed/unsigned mismatch
+         Enemy.cpp
+         Fireball.cpp
+         Food.cpp
+         Frostbolt.cpp
+         GameEngine.cpp
+     1>GameEngine.cpp(165): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         GameOver.cpp
+         GameWon.cpp
+         Ghost.cpp
+         Goblin.cpp
+         Compiling...
+         Gold.cpp
+         HUD.cpp
+         Inventory.cpp
+         LeftHand.cpp
+         LeftVine.cpp
+         Locked.cpp
+     1>Locked.cpp(38): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+         MainMenuState.cpp
+         Minimap.cpp
+     1>Minimap.cpp(11): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         NewGame.cpp
+         Player.cpp
+     1>Player.cpp(24): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Player.cpp(250): warning C4018: '<' : signed/unsigned mismatch
+         Potion.cpp
+         ProgressionStateDolan.cpp
+         ProgressionStatePepe.cpp
+         Projectile.cpp
+         Proportion.cpp
+     1>Proportion.cpp(100): warning C4172: returning address of local variable or temporary
+         Puzzle.cpp
+     1>Puzzle.cpp(178): warning C4018: '<' : signed/unsigned mismatch
+     1>Puzzle.cpp(189): warning C4018: '<' : signed/unsigned mismatch
+     1>Puzzle.cpp(200): warning C4018: '<' : signed/unsigned mismatch
+     1>Puzzle.cpp(206): warning C4018: '<' : signed/unsigned mismatch
+         RenderingEngine.cpp
+         RightHand.cpp
+         RightVine.cpp
+         Compiling...
+         Room.cpp
+     1>Room.cpp(27): warning C4018: '<' : signed/unsigned mismatch
+         ScndDungeon.cpp
+     1>ScndDungeon.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>ScndDungeon.cpp(137): warning C4018: '<' : signed/unsigned mismatch
+     1>ScndDungeon.cpp(149): warning C4018: '<' : signed/unsigned mismatch
+     1>ScndDungeon.cpp(173): warning C4018: '<' : signed/unsigned mismatch
+     1>ScndDungeon.cpp(381): warning C4018: '<' : signed/unsigned mismatch
+     1>ScndDungeon.cpp(399): warning C4018: '<' : signed/unsigned mismatch
+         ScreenUtil.cpp
+         Shop.cpp
+     1>Shop.cpp(130): warning C4018: '<' : signed/unsigned mismatch
+         Skeleton.cpp
+         Slime.cpp
+         HellKnight.cpp
+         Explosive.cpp
+         Spider.cpp
+     1>Spider.cpp(57): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>Spider.cpp(58): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Spider.cpp(59): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         StateManager.cpp
+         Texture.cpp
+         Thunderbolt.cpp
+         Timer.cpp
+         VenusFlyTrap.cpp
+         Waves.cpp
+     1>Waves.cpp(66): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>Waves.cpp(107): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Stephen\Desktop\Fate's Call\Release\Fate's Call.exe" /INCREMENTAL:NO /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib SDL2_ttf.lib SDL2_mixer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Stephen\Desktop\Fate's Call\Release\Fate's Call.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Stephen\Desktop\Fate's Call\Release\Fate's Call.lib" /MACHINE:X86 /SAFESEH Release\ThirdDungeon.obj
+         Release\Actor.obj
+         Release\AudioManager.obj
+         Release\Base.obj
+         Release\Bomb.obj
+         Release\Boss.obj
+         Release\Button.obj
+         Release\CollisionDetection.obj
+         Release\Credits.obj
+         Release\Dragon.obj
+         Release\Dungeon.obj
+         Release\Enemy.obj
+         Release\Fireball.obj
+         Release\Food.obj
+         Release\Frostbolt.obj
+         Release\GameEngine.obj
+         Release\GameOver.obj
+         Release\GameWon.obj
+         Release\Ghost.obj
+         Release\Goblin.obj
+         Release\Gold.obj
+         Release\HUD.obj
+         Release\Inventory.obj
+         Release\LeftHand.obj
+         Release\LeftVine.obj
+         Release\Locked.obj
+         Release\main.obj
+         Release\MainMenuState.obj
+         Release\Minimap.obj
+         Release\NewGame.obj
+         Release\Player.obj
+         Release\Potion.obj
+         Release\ProgressionStateDolan.obj
+         Release\ProgressionStatePepe.obj
+         Release\Projectile.obj
+         Release\Proportion.obj
+         Release\Puzzle.obj
+         Release\RenderingEngine.obj
+         Release\RightHand.obj
+         Release\RightVine.obj
+         Release\Room.obj
+         Release\ScndDungeon.obj
+         Release\ScreenUtil.obj
+         Release\Shop.obj
+         Release\Skeleton.obj
+         Release\Slime.obj
+         Release\HellKnight.obj
+         Release\Explosive.obj
+         Release\Spider.obj
+         Release\StateManager.obj
+         Release\Texture.obj
+         Release\Thunderbolt.obj
+         Release\Timer.obj
+         Release\VenusFlyTrap.obj
+         Release\Waves.obj
+         Generating code
+     1>c:\users\stephen\desktop\fate's call\minimap.cpp(109): warning C4715: 'Minimap::ReturnRoom' : not all control paths return a value
+         Finished generating code
+         utilityTest.vcxproj -> C:\Users\Stephen\Desktop\Fate's Call\Release\Fate's Call.exe
+     1>Done Building Project "C:\Users\Stephen\Desktop\Fate's Call\utilityTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.55

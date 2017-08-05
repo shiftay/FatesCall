@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Items/Inventory">
+      <UniqueIdentifier>{03ee6a36-1f68-4aa7-baf2-39a819e94949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{1545ed43-edae-48c3-bad0-75b5f5f7174c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{68593709-1ef6-4b85-bdb4-d60e64d4d96b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rooms">
+      <UniqueIdentifier>{8f87ed9b-6e1c-4de5-af5c-a4404e0ab661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projectiles">
+      <UniqueIdentifier>{aa29876f-8a46-4296-8222-d4dc61392213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{6e083b7e-aea2-467d-9940-3797ec79a26d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors\Bosses">
+      <UniqueIdentifier>{95de96d6-3863-49c9-a682-c8ac89ac1d13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Items/Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Items/Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Food.h">
+      <Filter>Items/Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Items/Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>Items/Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Proportion.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Minimap.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Puzzle.h">
+      <Filter>Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Gold.h">
+      <Filter>Items/Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Ghost.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireball.h">
+      <Filter>Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Frostbolt.h">
+      <Filter>Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Thunderbolt.h">
+      <Filter>Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Waves.h">
+      <Filter>Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosive.h">
+      <Filter>Projectiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressionStateDolan.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressionStatePepe.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenUtil.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetection.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingEngine.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Locked.h">
+      <Filter>Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Goblin.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWon.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGame.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Credits.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="ScndDungeon.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="HellKnight.h">
+      <Filter>Actors\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftHand.h">
+      <Filter>Actors\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftVine.h">
+      <Filter>Actors\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="RightHand.h">
+      <Filter>Actors\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="RightVine.h">
+      <Filter>Actors\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="VenusFlyTrap.h">
+      <Filter>Actors\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>Actors\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Fate%27s Call\ThirdDungeon.h">
+      <Filter>States</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Food.cpp">
+      <Filter>Items/Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Items/Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>Items/Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Items/Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Proportion.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Minimap.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Puzzle.cpp">
+      <Filter>Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Gold.cpp">
+      <Filter>Items/Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Ghost.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Frostbolt.cpp">
+      <Filter>Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Fireball.cpp">
+      <Filter>Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Thunderbolt.cpp">
+      <Filter>Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Waves.cpp">
+      <Filter>Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosive.cpp">
+      <Filter>Projectiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressionStateDolan.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressionStatePepe.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenUtil.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderingEngine.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetection.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Locked.cpp">
+      <Filter>Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Spider.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Goblin.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWon.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGame.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Credits.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="ScndDungeon.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="HellKnight.cpp">
+      <Filter>Actors\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftHand.cpp">
+      <Filter>Actors\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftVine.cpp">
+      <Filter>Actors\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="RightHand.cpp">
+      <Filter>Actors\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="RightVine.cpp">
+      <Filter>Actors\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="VenusFlyTrap.cpp">
+      <Filter>Actors\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragon.cpp">
+      <Filter>Actors\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fate%27s Call\ThirdDungeon.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
